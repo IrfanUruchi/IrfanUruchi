@@ -51,9 +51,9 @@ Apart from my classes, I’m diving into:
 
 ## 🛠️ Tech & Tools
 
-- **Languages:** Swift · Python · C/C++ · Verilog · Assembly  
+- **Languages:** Swift · Python · Assembly · Verilog · C/C++   
 - **AI/ML:** PyTorch · Transformers · Fine‑tuning · LLMs · Prompt Engineering  
 - **Hardware:** Digital Logic Design · FPGA · Microcontrollers · Raspberry Pi  
-- **Tools:** Xcode · VS Code · Git · Linux · KiCad · Logic Analyzers  
+- **Tools:** Xcode · Git · Linux · KiCad · Logisim · Logic Analyzers · VS Code
 
 Feel free to explore my work or get in touch if you’d like to collaborate!
