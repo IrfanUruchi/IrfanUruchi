@@ -37,6 +37,7 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
   An 8 billion‑parameter Llama 3.1 model specialized in computer networks.
 
 - [Building-Engineering-LLM](https://github.com/IrfanUruchi/1B-building-engineering-llm)
+  
   A 1 billion-parameter  EleutherAI pythia-1b-deduped specialized in building engineering.
 
 
