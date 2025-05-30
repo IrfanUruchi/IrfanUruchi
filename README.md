@@ -36,7 +36,11 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
 - [Llama‑3.1‑8B‑Computer‑Networks‑LLM](https://github.com/IrfanUruchi/Llama-3.1-8B-Computer-Networks-LLM)  
   An 8 billion‑parameter Llama 3.1 model specialized in computer networks.
 
+- [Building-Engineering-LLM](https://github.com/IrfanUruchi/1B-building-engineering-llm)
+
+
 ---
+
 
 ## 🧠 What I’m Learning
 
@@ -47,7 +51,9 @@ Apart from my classes, I’m diving into:
 - Compiler theory fundamentals  
 - On‑device LLM inference for iOS devices  
 
+
 ---
+
 
 ## 🛠️ Tech & Tools
 
