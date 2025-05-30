@@ -31,12 +31,13 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
   A 1 billion‑parameter Llama 3.2 model fine‑tuned on computer engineering tasks.
 
 - [Llama‑3.2‑3B‑Computer‑Engineering‑LLM](https://github.com/IrfanUruchi/Llama-3.2-3B-Computer-Engineering-LLM)  
-  A 3 billion‑parameter Llama 3.2 model optimized for general engineering workflows.
+  A 3 billion‑parameter Llama 3.2 model optimized for general computer engineering workflows.
 
 - [Llama‑3.1‑8B‑Computer‑Networks‑LLM](https://github.com/IrfanUruchi/Llama-3.1-8B-Computer-Networks-LLM)  
   An 8 billion‑parameter Llama 3.1 model specialized in computer networks.
 
 - [Building-Engineering-LLM](https://github.com/IrfanUruchi/1B-building-engineering-llm)
+  A 1 billion-parameter  EleutherAI pythia-1b-deduped specialized in building engineering.
 
 
 ---
@@ -46,11 +47,10 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
 
 Apart from my classes, I’m diving into:
 
-- Calculus III  
-- OS development (including mobile virtualization and running lightweight VMs on iPhone)  
+- Calculus III
+- OS and Hypervisor development (including mobile virtualization and running lightweight VMs on iPhone)  
 - Compiler theory fundamentals  
 - On‑device LLM inference for iOS devices  
-
 
 ---
 
