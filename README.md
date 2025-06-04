@@ -47,7 +47,7 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
 
 Apart from my classes, I’m diving into:
 
-- Building Engineering (courses, codes, materials, HVAC principles)
+- Building Engineering (courses, materials, HVAC principles)
 - Calculus III
 - OS and Hypervisor development (including mobile virtualization and running lightweight VMs on iPhone)  
 - Compiler theory fundamentals  
