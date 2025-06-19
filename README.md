@@ -51,7 +51,7 @@ Apart from my classes, I’m diving into:
 - Unity Development 
 - Calculus III
 - OS and Hypervisor development (including mobile virtualization and running lightweight VMs on iPhone)  
-- Compiler theory fundamentals  
+- Compiler theory
 - On‑device LLM inference for iOS devices 
 
 ---
