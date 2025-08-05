@@ -83,11 +83,13 @@ This project was completed as part of the Software Design and Architecture cours
 Apart from my classes, I’m diving into:
 
 - Building Engineering (courses, materials, HVAC principles)
+- Hardware Engineering
 - Unity Development 
 - Calculus III
 - OS and Hypervisor development (including mobile virtualization and running lightweight VMs on iPhone)  
 - Compiler theory
-- On‑device LLM inference for iOS devices 
+- On‑device LLM inference for iOS devices
+- Mechanical Engineering
 
 ---
 
