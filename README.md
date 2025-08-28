@@ -2,9 +2,9 @@
 
 I’m a Computer Engineering student who enjoys working on both hardware and software projects. Outside of my coursework I’ve:
 
-- 📱 Launched **3 iOS apps**  
+- 📱 Launched **4 iOS apps**  
 - 🤖 Fine‑tuned **7 custom LLMs**(one private)
--  🖥️ Assembled **2 computers** from scratch  
+-  🖥️ Assembled **2 computer architectures** from scratch  
 - 💡 Exploring the intersection of software, hardware & AI
 
 ---
@@ -22,6 +22,10 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
 - [EngToolbox](https://github.com/IrfanUruchi/EngToolbox)  
   _(App Store: https://apps.apple.com/mk/app/engtoolbox/id6615082500)_  
     A suite of engineering calculators and converters, plus a mini‑game, multiple timers, and a built‑in journal.
+
+- [PlayAIground](https://github.com/IrfanUruchi/PlayAIground)
+  _(App Store: https://apps.apple.com/mk/app/playaiground/id6751442927)
+  A on-device small fine-tuned model based on GPT2 for simple chat applications.
 
 ---
 
