@@ -24,7 +24,7 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
     A suite of engineering calculators and converters, plus a mini‑game, multiple timers, and a built‑in journal.
 
 - [PlayAIground](https://github.com/IrfanUruchi/PlayAIground)
-  _(App Store: https://apps.apple.com/mk/app/playaiground/id6751442927)
+  _(App Store: https://apps.apple.com/mk/app/playaiground/id6751442927)_
   A on-device small fine-tuned model based on GPT2 for simple chat applications.
 
 ---
