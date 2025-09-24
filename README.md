@@ -3,7 +3,7 @@
 I’m a Computer Engineering student who enjoys working on both hardware and software projects. Outside of my coursework I’ve:
 
 - 📱 Launched **4 iOS apps**  
-- 🤖 Fine‑tuned **7 custom LLMs**(one private)
+- 🤖 Fine‑tuned **9 custom LLMs**(one private)
 -  🖥️ Assembled **2 computer architectures** from scratch  
 - 💡 Exploring the intersection of software, hardware & AI
 
