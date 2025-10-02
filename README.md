@@ -50,7 +50,12 @@ I’m a Computer Engineering student who enjoys working on both hardware and sof
 
 - [Phi-2-2B-chat LLM](https://github.com/IrfanUruchi/phi-2-chat)
 - [Hugging face link](https://huggingface.co/Irfanuruchi/phi-2-chat)
+   Fine-tuned version of Microsoft's Phi-2 (2.7B) for general-purpose tasks, trained on UltraChat and other datasets.
 
+- [Llama-2-13B-Computer-Engineering](https://github.com/IrfanUruchi/Llama-2-13B-Computer-Engineering-)
+- [Hugging face link](https://github.com/IrfanUruchi/Llama-2-13B-Computer-Engineering-)
+   Llama-2-13B-Computer-Engineering is a fine-tuned variant of LLaMA-2-13B, specialized for computer engineering, architecture, systems, and algorithms. The model is trained with QLoRA (4-bit quantization) and merged into a single checkpoint, enabling 13B-scale reasoning with ~6.6 GB storage and ~16 GB GPU memory suitable for a single modern GPU.
+  
 
 ---
 
