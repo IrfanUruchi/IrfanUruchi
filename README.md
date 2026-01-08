@@ -92,6 +92,7 @@ This project was completed as part of the Software Design and Architecture cours
 
 Apart from my classes, I’m diving into:
 
+- Kinetic Mathematics
 - Building Engineering (courses, materials, HVAC principles)
 - Hardware Engineering
 - Unity Development 
