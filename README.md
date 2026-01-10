@@ -3,7 +3,7 @@
 I’m a Computer Engineering student who enjoys working on both hardware and software projects. Outside of my coursework I’ve:
 
 - 📱 Launched **4 iOS apps**  
-- 🤖 Fine‑tuned **9 custom LLMs**(one private)
+- 🤖 Fine‑tuned **12 custom LLMs**(four private)
 -  🖥️ Assembled **2 computer architectures** from scratch  
 - 💡 Exploring the intersection of software, hardware & AI
 
@@ -101,6 +101,7 @@ Apart from my classes, I’m diving into:
 - Compiler theory
 - On‑device LLM inference for iOS devices
 - Mechanical Engineering
+- Geodesic
 
 ---
 
