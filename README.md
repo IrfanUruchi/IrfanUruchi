@@ -108,7 +108,7 @@ Apart from my classes, I’m diving into:
 
 ## 🛠️ Tech & Tools
 
-- **Languages:** Swift · Kotlin · Fortran · Python · Assembly · Verilog · C/C++ · Haskell · Prolog
+- **Languages:** Swift · Kotlin · Assembly · Fortran · Python · Assembly · Verilog · C/C++ · Haskell · Prolog
 - **AI/ML:** PyTorch · Transformers · Fine‑tuning · LLMs · Prompt Engineering  
 - **Hardware:** Digital Logic Design · FPGA · Microcontrollers · Raspberry Pi  
 - **Tools:** Xcode · Git · Android Studio · Linux · KiCad · Logisim · Logic Analyzers · VS Code · Unsloth
