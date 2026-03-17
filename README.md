@@ -130,10 +130,10 @@ flowchart LR
     D --> H[Data Processing]
     H --> I[Metrics / Logs]
 
-    I --> J[Monitoring (Grafana)]
+    I --> J[Monitoring - Grafana]
 ```
 
-⸻
+--- 
 
 ## Local LLM Service
 
