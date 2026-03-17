@@ -82,71 +82,97 @@ flowchart LR
     H --> J[User Applications]
     I --> J
 
-    J --> K[Monitoring (Grafana/Prometheus)]
+    J --> K[Monitoring - Grafana/Prometheus]
 ```
 
 ---
 
-# Distributed Systems & Docker
+## Distributed Systems & Docker
 
 
 ## Edge Mini Cloud System
 
 🔗 https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker
-	•	14+ services in one system
-	•	Nextcloud, Grafana, Prometheus
-	•	LLM UI + inference nodes
-	•	Multi-arch (ARM64 + x86_64)
-	•	Runs on Raspberry Pi + servers
+- 14+ services in one system
+- Nextcloud, Grafana, Prometheus
+- LLM UI + inference nodes
+- Multi-arch (ARM64 + x86_64)
+- Runs on Raspberry Pi + servers
 
 ---
 
 ## LLM Proxy
-	•	Multi-node reverse proxy for LLM systems
-	•	Enables distributed inference routing
+
+- Multi-node reverse proxy for LLM systems
+- Enables distributed inference routing
 
 ---
 
 ## WMN System (Wireless Monitoring Network)
-	•	Collector → Analyzer → Explainer pipeline
-	•	Real-time telemetry processing
-	•	MQTT-based distributed architecture
+
+- Collector → Analyzer → Explainer pipeline
+- Real-time telemetry processing
+- MQTT-based distributed architecture
+
+## 📡 Distributed WMN System
+
+```mermaid
+flowchart LR
+    A[Devices / Sensors] --> B[WMN Collector]
+    B --> C[MQTT Broker]
+
+    C --> D[WMN Analyzer]
+    D --> E[WMN Explainer]
+
+    E --> F[Dashboard / UI]
+    F --> G[User Insights]
+
+    D --> H[Data Processing]
+    H --> I[Metrics / Logs]
+
+    I --> J[Monitoring (Grafana)]
+```
 
 ⸻
 
 ## Local LLM Service
-	•	Self-hosted LLM with persistent chat memory
-	•	Multi-session support
+
+- Self-hosted LLM with persistent chat memory
+- Multi-session support
 
 ---
 ## ALPR Gate System
-	•	YOLOv8 + EasyOCR on Raspberry Pi
-	•	Arduino-controlled automation
-	•	Fully deployed edge AI system
+
+- YOLOv8 + EasyOCR on Raspberry Pi
+- Arduino-controlled automation
+- Fully deployed edge AI system
 
 --- 
 
 ## LM Box
-	•	Containerized LLM serving (FastAPI + UI)
-	•	Lightweight deployment pipeline
+
+- Containerized LLM serving (FastAPI + UI)
+- Lightweight deployment pipeline
 
 ---
 
-# Cloud & Systems Engineering
+## Cloud & Systems Engineering
 
 📉 Real-Time Price Alert System
-	•	Event-driven architecture
-	•	Real-time stock monitoring and alerts
+
+- Event-driven architecture
+- Real-time stock monitoring and alerts
 
 ---
 
-# What I’m Exploring
-	•	OS & Hypervisor development
-	•	On-device LLM inference (mobile + edge)
-	•	Compiler theory
-	•	Advanced Mathematics & Kinetics
-	•	Mechanical & Building Engineering
-	•	AI + Systems integration
+## What I’m Exploring
+
+- OS & Hypervisor development
+- On-device LLM inference (mobile + edge)
+- Compiler theory
+- Advanced Mathematics & Kinetics
+- Mechanical & Building Engineering
+- AI + Systems integration
 
 ---
 
