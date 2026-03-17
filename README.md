@@ -1,116 +1,169 @@
-# 👋 Hey there, I’m Irfan Uruchi
+<h1 align="center">⚡ Irfan Uruchi</h1>
 
-I’m a Computer Engineering student who enjoys working on both hardware and software projects. Outside of my coursework I’ve:
+<p align="center">
+  AI Systems Engineer · Distributed Systems Builder · Computer Engineering
+</p>
 
-- 📱 Launched **4 iOS apps**  
-- 🤖 Fine‑tuned **12 custom LLMs**(four private)
--  🖥️ Assembled **2 computer architectures** from scratch  
-- 💡 Exploring the intersection of software, hardware & AI
+<p align="center">
+  <a href="https://huggingface.co/Irfanuruchi">🤗 Hugging Face</a> •
+  <a href="https://github.com/IrfanUruchi">💻 GitHub</a> •
+  <a href="https://irfanuruchi.in">🌐 Portfolio</a>
+</p>
 
----
-
-## 📱 My Apps on the App Store
-
-- [Smart Study Planner](https://github.com/IrfanUruchi/Smart-Study-Planner)  
-  _(App Store: https://apps.apple.com/mk/app/smart-study-planner/id6740488006)_  
-  A straightforward way to schedule and track your study sessions.
-
-- [UnitEngConverter](https://github.com/IrfanUruchi/UnitEngConverter)  
-  _(App Store: https://apps.apple.com/mk/app/unitengconverter/id6651829579)_  
-  Quick unit conversions for various disciplines.
-
-- [EngToolbox](https://github.com/IrfanUruchi/EngToolbox)  
-  _(App Store: https://apps.apple.com/mk/app/engtoolbox/id6615082500)_  
-    A suite of engineering calculators and converters, plus a mini‑game, multiple timers, and a built‑in journal.
-
-- [PlayAIground](https://github.com/IrfanUruchi/PlayAIground)
-  
-  _(App Store: https://apps.apple.com/mk/app/playaiground/id6751442927)_
-  A on-device small fine-tuned model based on GPT2 for simple chat applications.
+<p align="center">
+  Building scalable AI systems from edge devices to distributed cloud infrastructure.
+</p>
 
 ---
 
-## 🤖 My Public LLMs
+## 👋 About Me
 
-- [Llama‑3.2‑1B‑ComputerEngineeringLLM](https://github.com/IrfanUruchi/Llama-3.2-1B-ComputerEngineeringLLM)
-- [Hugging Face link:](https://huggingface.co/Irfanuruchi/Llama-3.2-1B-Computer-Engineering-LLM)
-  A 1 billion‑parameter Llama 3.2 model fine‑tuned on computer engineering tasks.
+Computer Engineering student focused on building AI systems, distributed infrastructure, and real-world engineering tools.
 
-- [Llama‑3.2‑3B‑Computer‑Engineering‑LLM](https://github.com/IrfanUruchi/Llama-3.2-3B-Computer-Engineering-LLM)
-- [Hugging Face link:](https://huggingface.co/Irfanuruchi/Llama-3.2-3B-Computer-Engineering-LLM)
-  A 3 billion‑parameter Llama 3.2 model optimized for general computer engineering workflows.
-
-- [Llama‑3.1‑8B‑Computer‑Networks‑LLM](https://github.com/IrfanUruchi/Llama-3.1-8B-Computer-Networks-LLM)
-- [Hugging Face link:](https://huggingface.co/Irfanuruchi/Llama-3.1-8B-Computer-Networks-LLM)
-  An 8 billion‑parameter Llama 3.1 model specialized in computer networks.
-
-- [Building-Engineering-LLM](https://github.com/IrfanUruchi/1B-building-engineering-llm)
-- [Hugging Face link](https://huggingface.co/Irfanuruchi/1B-building-engineering-llm)
-  A 1 billion-parameter  EleutherAI pythia-1b-deduped specialized in building engineering.
-
-- [Phi-2-2B-chat LLM](https://github.com/IrfanUruchi/phi-2-chat)
-- [Hugging face link](https://huggingface.co/Irfanuruchi/phi-2-chat)
-   Fine-tuned version of Microsoft's Phi-2 (2.7B) for general-purpose tasks, trained on UltraChat and other datasets.
-
-- [Llama-2-13B-Computer-Engineering](https://github.com/IrfanUruchi/Llama-2-13B-Computer-Engineering-)
-- [Hugging face link](https://github.com/IrfanUruchi/Llama-2-13B-Computer-Engineering-)
-   Llama-2-13B-Computer-Engineering is a fine-tuned variant of LLaMA-2-13B, specialized for computer engineering, architecture, systems, and algorithms. The model is trained with QLoRA (4-bit quantization) and merged into a single checkpoint, enabling 13B-scale reasoning with ~6.6 GB storage and ~16 GB GPU memory suitable for a single modern GPU.
-  
+I work on turning ideas into scalable, deployable systems — from edge AI to cloud-native architectures.
 
 ---
 
-## Docker Images
+## 🚀 Highlights
 
-- [ALPR-gate-phi](https://hub.docker.com/r/irfanuruchi/alpr-gate-pi)
-- [GitHub repo](https://github.com/IrfanUruchi/automated-license-plate-gate-control)
-  A fully automated gate that opens when a recognized license plate approaches, leveraging OpenCV on a Raspberry Pi for OCR and an Arduino-controlled actuator for the gate. This project was completed as part of the **Software for Embedded Systems**.
-
-- [LLM-Box](https://github.com/IrfanUruchi/llm-docker-app)
-- [GitHub Repo](https://github.com/IrfanUruchi/llm-docker-app)
-This project demonstrates how to containerize and serve a Large Language Model (LLM) using FastAPI, Docker, and pre-trained transformer models, with a lightweight browser-based chat interface. Built as part of the Introduction to Artificial Intelligence course.  
-
-- [Distributed Mini Cloud](https://hub.docker.com/r/irfanuruchi/distributed-edge-mini-cloud)
-- [GitHub repo](https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker)
-  A single, multi-arch Docker image that bundles and orchestrates:Nextcloud (self-hosted file sync & share),Grafana, Prometheus, Jupyter Notebook ,Samba (SMB file shares),Custom LLM UI ,Static websites (your website/ and chat-ui/ folders). Built for both linux/amd64 and linux/arm64.
-
-- [LLM Proxy](https://hub.docker.com/r/irfanuruchi/llm-proxy)
-- [GitHub repo](https://github.com/IrfanUruchi/Edge-Distributed-Mini-Cloud-System)
-  llm-proxy is a lightweight, multi-architecture Nginx reverse-proxy image pre-configured (via your nginx.conf) to front your LLM UI and related services. Used to allow multi node operation for the [Distributed Mini Cloud](https://github.com/IrfanUruchi/Edge-Distributed-Mini-Cloud-System) to allow other nodes to connect.
-
+- 📱 4 iOS apps published  
+- 🤖 30+ LLMs & variants (MLX, LoRA, full fine-tunes)  
+- 🐳 10+ Dockerized systems (multi-architecture)  
+- ☁️ Distributed edge-cloud infrastructure  
+- ⚙️ Hardware + software + AI integration  
 
 ---
 
-## Cloud architecture
+## 🤖 LLM Ecosystem
 
-- [Real-Time Price Alert System](https://github.com/IrfanUruchi/realtime-price-alert-system)
- This repository contains the design and implementation of a system that monitors stock prices in real time and notifies users when significant price drops occur.
-This project was completed as part of the Software Design and Architecture course.
+### Core Models
+- LLaMA (1B → 13B)  
+- Qwen2.5 (0.5B → 1.5B + LoRA variants)  
+- Phi-2 / Phi-4-mini  
+- SmolLM (135M → 1.7B)  
+
+### Edge / MLX Optimized
+- MLX quantized models (4-bit / 5-bit / 8-bit)  
+- Apple Silicon optimized inference  
+- Sub-500MB deployable LLMs  
+
+### Domain-Specific AI
+- Building Engineering models  
+- HVAC diagnostic LLMs  
+- DSP / Signal Processing models  
+- Engineering validation (“precheck”) systems  
+
+### Dataset Engineering
+- Building Engineering Synthetic Dataset (v5 – 60k samples)  
+- HVAC validation datasets  
+- DSP datasets (sampling, aliasing)  
+- Multi-version dataset pipelines (v3 → v5)  
+
+🔗 https://huggingface.co/Irfanuruchi  
 
 ---
 
-## 🧠 What I’m Learning
+## 🧠 AI + Systems Architecture
 
-Apart from my classes, I’m diving into:
+```mermaid
+flowchart LR
+    A[Datasets] --> B[Fine-Tuning Pipeline]
+    B --> C[LLM Models]
 
-- Kinetic Mathematics
-- Building Engineering (courses, materials, HVAC principles)
-- Hardware Engineering
-- Unity Development 
-- Calculus III
-- OS and Hypervisor development (including mobile virtualization and running lightweight VMs on iPhone)  
-- Compiler theory
-- On‑device LLM inference for iOS devices
-- Mechanical Engineering
-- Geodesic
+    C --> D[MLX Edge Models]
+    C --> E[CUDA Models]
+
+    D --> F[Mobile / Edge Devices]
+    E --> G[Cloud / Servers]
+
+    F --> H[Local LLM Service]
+    G --> I[LLM Box API]
+
+    H --> J[User Applications]
+    I --> J
+
+    J --> K[Monitoring (Grafana/Prometheus)]
+```
 
 ---
 
+# Distributed Systems & Docker
 
-## 🛠️ Tech & Tools
 
-- **Languages:** Swift · Kotlin · Assembly · Fortran · Python · Assembly · Verilog · C/C++ · Haskell · Prolog
-- **AI/ML:** PyTorch · Transformers · Fine‑tuning · LLMs · Prompt Engineering  
-- **Hardware:** Digital Logic Design · FPGA · Microcontrollers · Raspberry Pi  
-- **Tools:** Xcode · Git · Android Studio · Linux · KiCad · Logisim · Logic Analyzers · VS Code · Unsloth
+## Edge Mini Cloud System
 
-Feel free to explore my work or get in touch if you’d like to collaborate!
+🔗 https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker
+	•	14+ services in one system
+	•	Nextcloud, Grafana, Prometheus
+	•	LLM UI + inference nodes
+	•	Multi-arch (ARM64 + x86_64)
+	•	Runs on Raspberry Pi + servers
+
+---
+
+## LLM Proxy
+	•	Multi-node reverse proxy for LLM systems
+	•	Enables distributed inference routing
+
+---
+
+## WMN System (Wireless Monitoring Network)
+	•	Collector → Analyzer → Explainer pipeline
+	•	Real-time telemetry processing
+	•	MQTT-based distributed architecture
+
+⸻
+
+## Local LLM Service
+	•	Self-hosted LLM with persistent chat memory
+	•	Multi-session support
+
+---
+## ALPR Gate System
+	•	YOLOv8 + EasyOCR on Raspberry Pi
+	•	Arduino-controlled automation
+	•	Fully deployed edge AI system
+
+--- 
+
+## LM Box
+	•	Containerized LLM serving (FastAPI + UI)
+	•	Lightweight deployment pipeline
+
+---
+
+# Cloud & Systems Engineering
+
+📉 Real-Time Price Alert System
+	•	Event-driven architecture
+	•	Real-time stock monitoring and alerts
+
+---
+
+# What I’m Exploring
+	•	OS & Hypervisor development
+	•	On-device LLM inference (mobile + edge)
+	•	Compiler theory
+	•	Advanced Mathematics & Kinetics
+	•	Mechanical & Building Engineering
+	•	AI + Systems integration
+
+---
+
+# Tech Stack
+
+## Languages
+
+Swift · Kotlin · Python · C/C++ · Assembly · Fortran · Verilog · Haskell · Prolog
+
+## AI / ML
+
+PyTorch · Transformers · QLoRA · MLX · Fine-tuning
+
+## Systems
+
+Docker · Linux · Networking · Distributed Systems
+
+## Hardware
+
+FPGA · Microcontrollers · Raspberry Pi
