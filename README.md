@@ -19,11 +19,9 @@
 
 ## About Me
 
-I am a Computer Engineer working across AI, distributed systems, edge computing, cloud infrastructure, and low-level hardware.
+I’m a Computer Engineer who enjoys building complete systems from the hardware level up. My work includes custom processor designs, Raspberry Pi and edge deployments, distributed services, mobile apps, and domain-specific language models.
 
-My projects usually go beyond isolated demos. I train and optimize models, build APIs and distributed services, containerize deployments, connect physical devices, and test complete systems across ARM64 and x86_64 hardware.
-
-B.Sc. in Computer Engineering, 240 ECTS — South East European University, 2026.
+I graduated from South East European University in 2026 with a 240 ECTS B.Sc. in Computer Engineering.
 
 ---
 
