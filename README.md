@@ -9,6 +9,11 @@
   <a href="https://hub.docker.com/u/irfanuruchi">🐳 Docker Hub</a> •
   <a href="https://apps.apple.com/rw/developer/irfan-uruci/id1761565214">📱 App Store</a> •
   <a href="https://irfanuruchi.in">🌐 Portfolio</a>
+  <br>
+  <sub>
+    If the domain is still propagating:
+    <a href="https://portfolio-lrs.pages.dev">portfolio-lrs.pages.dev</a>
+  </sub>
 </p>
 
 <p align="center">
