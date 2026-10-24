@@ -1,393 +1,202 @@
-<h1 align="center">⚡ Irfan Uruchi</h1>
 
-<p align="center">
-  Computer Engineer · AI Systems · Distributed Systems · Edge Computing
-</p>
+# Irfan Uruchi
 
-<p align="center">
-  <a href="https://huggingface.co/Irfanuruchi">🤗 Hugging Face</a> •
-  <a href="https://hub.docker.com/u/irfanuruchi">🐳 Docker Hub</a> •
-  <a href="https://apps.apple.com/rw/developer/irfan-uruci/id1761565214">📱 App Store</a> •
-  <a href="https://irfanuruchi.in">🌐 Portfolio</a>
-  <br>
-  <sub>
-    If the domain is still propagating:
-    <a href="https://portfolio-lrs.pages.dev">portfolio-lrs.pages.dev</a>
-  </sub>
-</p>
+**Computer Engineer** · Operating Systems · Scientific Computing · Machine Learning · Distributed Systems
 
-<p align="center">
-  I build AI and distributed systems that run across workstations, servers, Raspberry Pis, laptops, and mobile devices.
+I develop Linux software, scientific research tools, domain-specific language models, and distributed applications. My work covers both the software and the hardware it runs on, from desktop operating systems and GPU inference to Raspberry Pi deployments and custom processor designs.
+
+<p align="left">
+  <a href="https://irfanuruchi.in">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="https://huggingface.co/Irfanuruchi">
+    <img src="https://img.shields.io/badge/Hugging%20Face-111111?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face">
+  </a>
+  <a href="https://hub.docker.com/u/irfanuruchi">
+    <img src="https://img.shields.io/badge/Docker%20Hub-111111?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker Hub">
+  </a>
+  <a href="https://apps.apple.com/rw/developer/irfan-uruci/id1761565214">
+    <img src="https://img.shields.io/badge/App%20Store-111111?style=for-the-badge&logo=apple&logoColor=white" alt="App Store">
+  </a>
 </p>
 
 ---
 
-## About Me
+## Selected projects
 
-I’m a Computer Engineer who enjoys building complete systems from the hardware level up. My work includes custom processor designs, Raspberry Pi and edge deployments, distributed services, mobile apps, and domain-specific language models.
+### IULinux — Linux distribution
 
-I graduated from South East European University in 2026 with a 240 ECTS B.Sc. in Computer Engineering.
+An Ubuntu 26.04 LTS-based distribution using KDE Plasma, currently at **0.1 Alpha 1**.
 
----
-
-## Highlights
-
-- 🏗️ Built BuildEng V8, a domain-specific 32B engineering language model
-- 📚 Created a validated engineering dataset containing 145,117 samples
-- 🤖 Published 30+ models, adapters, conversions, and quantized variants
-- 📱 Released four iOS applications
-- 🌐 Built distributed systems using FastAPI, gRPC, Protobuf, MQTT, and Docker
-- 🐳 Deployed multi-architecture systems across ARM64 and x86_64
-- 🧠 Worked with CUDA, MLX, GGUF, OpenVINO, QLoRA, and local inference
-- ⚙️ Built projects spanning AI, software, networking, embedded systems, and hardware
-
----
-
-# BuildEng
-
-BuildEng is my main domain-specific AI project: a family of language models and datasets for civil engineering, structural reasoning, construction workflows, HVAC, field diagnostics, and conservative engineering assistance.
-
-The models are designed to separate observations from confirmed diagnoses, ask for missing information, recognize structural risk, and avoid giving unsupported engineering approval.
-
-## BuildEng V8 32B
-
-- Based on Qwen2.5-32B-Instruct
-- Fine-tuned using 4-bit QLoRA
-- 145,117 validated training samples
-- 4,096-token training sequences
-- 1.5B, 3B, and 32B model branches
-- Merged FP16 model and GGUF releases
-- F16, Q5_K_M, and Q4_K_M variants
-- MLX versions for Apple Silicon
-- OpenVINO exports for CPU and Intel hardware
-- Compatible with llama.cpp, Ollama, LM Studio, and other local runtimes
+- Custom Settings application built with Qt/QML and Python.
+- App Store using AppStream metadata, PackageKit, and PolicyKit authorization.
+- Signed APT updates and optional workstation profiles.
+- Calamares installer integration, Debian packaging, filesystem overlays, and ISO builds.
+- Release testing and documentation, including known hardware and Secure Boot limitations.
 
 <p>
-  <a href="https://huggingface.co/Irfanuruchi/buildeng">📚 Dataset</a> •
-  <a href="https://huggingface.co/Irfanuruchi/qwen2.5-32b-buildeng-GGUF-F16">🧠 BuildEng V8 32B</a> •
-  <a href="https://huggingface.co/Irfanuruchi/qwen2.5-3b-buildeng">⚙️ BuildEng 3B</a> •
-  <a href="https://huggingface.co/Irfanuruchi/qwen2.5-1.5b-buildeng">🪶 BuildEng 1.5B</a>
+  <a href="https://iulinux-website.pages.dev">
+    <img src="https://img.shields.io/badge/Official_Website-161B22?style=flat-square&logo=linux&logoColor=white" alt="IULinux website">
+  </a>
+  <a href="https://github.com/IrfanUruchi/IULinux">
+    <img src="https://img.shields.io/badge/Source_Code-161B22?style=flat-square&logo=github&logoColor=white" alt="IULinux source">
+  </a>
+  <a href="https://iulinux-website.pages.dev/handbook.html">
+    <img src="https://img.shields.io/badge/Technical_Handbook-161B22?style=flat-square&logo=readthedocs&logoColor=white" alt="Technical handbook">
+  </a>
 </p>
 
-## Other Model Work
+### ELENXIS — Scientific computing
 
-- Computer Engineering LLMs from 1B to 13B
-- Bilingual English–Albanian DSP model
-- HVAC and engineering precheck models
-- Computer networking models
-- Phi-2 and Phi-4-mini experiments
-- SmolLM and sub-500 MB edge models
-- LoRA and QLoRA adapter training
-- GGUF, MLX, Core ML, and OpenVINO conversion pipelines
+A neuro-symbolic framework for investigating contradictions in scientific observations and evaluating candidate hypotheses. The implementation combines **Python, Haskell, Prolog, and Fortran**.
 
----
+The research workflow includes simulation, anomaly and sensitivity analysis, calibration, experimental design, and reproducible evaluation runs with traceable results. The focus is on comparing hypotheses against evidence rather than treating generated explanations as conclusions.
 
-## AI Deployment Pipeline
-
-```mermaid
-flowchart TD
-    A[Dataset Engineering] --> B[Training and Fine-Tuning]
-    B --> C[Model Releases]
-
-    C --> D[CUDA and GPU Servers]
-    C --> E[MLX and Apple Silicon]
-    C --> F[GGUF and CPU Inference]
-
-    D --> G[Distributed APIs]
-    E --> H[Edge Applications]
-    F --> H
-
-    G --> I[Monitoring and Automation]
-    H --> I
-```
-
----
-
-# Distributed and Edge Systems
-
-## Distributed Task Orchestration System
-
-A distributed platform for scheduling and executing work across multiple machines.
-
-- Central FastAPI coordinator
-- gRPC and Protobuf worker communication
-- Persistent SQLite task queue
-- Dynamic worker registration
-- Worker heartbeat monitoring
-- Automatic retries and cooldown handling
-- Worker re-registration after coordinator restarts
-- Round-robin and load-aware scheduling
-- Capability-aware routing for CPU, memory, and general tasks
-- Benchmark dashboard and scheduler comparison
-- Dockerized coordinator and workers
-
-The system was tested across independent Linux and macOS devices rather than simulated workers on one machine.
-
----
-
-## Intelligent Fog Orchestration System
-
-A fog-computing platform for controlling and recovering containerized workloads across distributed smart nodes.
-
-- MQTT communication
-- Desired-state reconciliation
-- Live node telemetry and event reporting
-- Runtime and container monitoring
-- Automatic workload recovery
-- CPU and memory safety limits
-- Remote deployment over LAN and Tailscale
-- Ollama-based local LLM workload
-- MobileNetV2 edge-classification workload
-- Central controller dashboard
-
----
-
-## PMDrop
-
-[PMDrop](https://github.com/IrfanUruchi/PMDrop) is a local-only file-transfer system built around a Raspberry Pi.
-
-- FastAPI backend
-- SQLite metadata storage
-- File upload, download, listing, and deletion
-- Device registration and heartbeats
-- Browser signaling layer
-- Raspberry Pi LAN hub
-- Ethernet and Wi-Fi device support
-- Docker and Docker Compose deployment
-- ARM64 and x86_64 container images
-
-Current work includes direct WebRTC transfers, QR pairing, device discovery, and desktop notifications.
-
----
-
-## Wireless Monitoring Network
-
-[WMN System](https://github.com/IrfanUruchi/wmn-system) is a distributed network-quality monitoring platform.
-
-- Edge collectors measure RSSI, latency, jitter, and packet loss
-- MQTT-based telemetry transport
-- Analyzer calculates wireless QoE scores
-- Alert generation and analytics
-- Explanation service for user-readable diagnostics
-- Offline telemetry spooling
-- Grafana-based monitoring
-- Deployment across WSL, Raspberry Pi, and Proxmox
-
-```mermaid
-flowchart LR
-    A[Edge Collector] --> B[MQTT]
-    B --> C[Analyzer]
-    C --> D[Explainer]
-    C --> E[Metrics]
-    E --> F[Grafana]
-```
-
----
-
-## Edge Distributed Mini Cloud
-
-[Edge Mini Cloud](https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker) combines multiple self-hosted services into one deployable environment.
-
-- 14+ integrated services
-- Nextcloud
-- Grafana and Prometheus
-- Jupyter
-- Samba
-- Local LLM interface
-- ARM64 and x86_64 support
-- Raspberry Pi and server deployment
-- Docker-based installation
-
----
-
-## Local LLM Service
-
-A self-hosted local inference service with persistent conversation storage.
-
-- Browser-based chat interface
-- Multiple chat sessions
-- Persistent SQLite history
-- Conversation renaming
-- Built-in GGUF model
-- Custom model override through environment variables
-- Configurable context size and GPU layers
-- Multi-architecture Docker images
-
----
-
-## Adaptive IoT Gateway
-
-[Adaptive IoT Gateway](https://github.com/IrfanUruchi/Adaptive-IoT-Gateway) is a Raspberry Pi gateway for local device and network management.
-
-- MQTT communication
-- Context-aware automation
-- AdGuard integration
-- Grafana monitoring
-- Containerized deployment
-- Local network telemetry
-
----
-
-# Data and Backend Systems
-
-## NoSQL Retail Migration
-
-A complete relational-to-document-database migration and analytics system built using the Olist retail dataset.
-
-- PostgreSQL 16 source database
-- MongoDB 7 analytics database
-- Python migration and validation pipeline
-- Denormalized analytics collections
-- Unique indexes and consistency checks
-- Streamlit analytics dashboard
-- Docker Compose deployment
-- 99,441 migrated orders
-- 32,951 products
-- 96,096 unique customers
-- Revenue, freight, and payment totals validated across both databases
-
----
-
-## Real-Time Price Alert System
-
-[Real-Time Price Alert System](https://github.com/IrfanUruchi/realtime-price-alert-system) is an event-driven stock-monitoring and alert platform.
-
-- Live price monitoring
-- Price-drop detection
-- Event-driven processing
-- Automated alerts
-- Containerized services
-
----
-
-## ProMatch
-
-[ProMatch](https://github.com/IrfanUruchi/promatch-prolog) is a B2B event-matchmaking application written in SWI-Prolog.
-
-- Participant and role management
-- Availability and time-slot handling
-- Conflict-free schedule generation
-- Greedy scheduling
-- CLP(FD) optimization
-- Browser-based interface
-
----
-
-# Edge AI and Embedded Systems
-
-## ALPR Gate System
-
-[ALPR Gate](https://github.com/IrfanUruchi/automated-license-plate-gate-control) is an automated gate-control system using computer vision and embedded hardware.
-
-- YOLOv8 Nano object detection
-- EasyOCR plate recognition
-- Raspberry Pi deployment
-- Arduino-controlled gate hardware
-- Edge-based image processing
-- Fully local operation
-
----
-
-## Custom CPU Projects
-
-I have also worked on computer architecture from the digital-logic level.
-
-- Custom 8-bit CPU
-- Z80-style processor architecture
-- ALU, register, datapath, and control-unit design
-- Logisim simulation
-- Verilog and FPGA experimentation
-
----
-
-# Applications
-
-I have released four iOS applications.
-
-## EngToolBox
-
-[EngToolBox](https://github.com/IrfanUruchi/EngToolBox) provides engineering, mathematical, symbolic, and numerical calculation tools.
-
-## UnitEngConverter
-
-[UnitEngConverter](https://github.com/IrfanUruchi/UnitEngConverter) is a lightweight engineering unit-conversion application.
-
-## Smart Study Planner
-
-[Smart Study Planner](https://github.com/IrfanUruchi/Smart-Study-Planner) combines task planning, study timers, and academic workflow management.
-
-## PlayAIground
-
-[PlayAIground](https://github.com/IrfanUruchi/PlayAIground) is an on-device AI sandbox for experimenting with local models on iOS.
-
----
-
-# Other Projects
-
-## Haskell Symbolic Calculator
-
-[Haskell Integral and Derivative Calculator](https://github.com/IrfanUruchi/Haskell-Integral-Derivative-Calculator)
-
-A small computer algebra system with a custom symbolic language, recursive-descent parser, simplification rules, differentiation, and pattern-based integration.
-
-## DSP Bilingual LLM
-
-[DSP LLM Bilingual Fine-Tuning](https://github.com/IrfanUruchi/dsp-llm-bilingual-finetuning)
-
-A complete training and dataset pipeline for adapting a lightweight LLaMA model to English and Albanian digital signal-processing tasks.
-
-## LLM Box
-
-[LLM Box](https://github.com/IrfanUruchi/llm-docker-app)
-
-A lightweight FastAPI and Docker application for serving language models through a browser interface.
-
----
-
-# Tech Stack
-
-## Languages
-
-Python · Kotlin · Swift · C · C++ · Assembly · Verilog · Fortran · Haskell · Prolog · SQL
-
-## AI and Machine Learning
-
-PyTorch · Transformers · Hugging Face · QLoRA · LoRA · MLX · GGUF · llama.cpp · Ollama · OpenVINO · Core ML · YOLOv8
-
-## Backend and Distributed Systems
-
-FastAPI · gRPC · Protobuf · MQTT · REST APIs · WebRTC · SQLite · PostgreSQL · MongoDB
-
-## Infrastructure
-
-Docker · Docker Compose · Linux · Proxmox · Prometheus · Grafana · Tailscale · Networking
-
-## Hardware and Edge
-
-Raspberry Pi · Arduino · FPGA · Microcontrollers · Apple Silicon · NVIDIA CUDA · Intel OpenVINO
-
-## Mobile and UI
-
-SwiftUI · Jetpack Compose · Streamlit · HTML · CSS · JavaScript
-
----
-
-# Currently Exploring
-
-- OS and hypervisor development
-- On-device LLM inference
-- Distributed inference routing
-- WebRTC peer-to-peer systems
-- Compiler design
-- Computer architecture
-- FPGA acceleration
-- Engineering-focused AI systems
-
----
-
-<p align="center">
-  <a href="https://github.com/IrfanUruchi">GitHub</a> •
-  <a href="https://huggingface.co/Irfanuruchi">Hugging Face</a> •
-  <a href="https://hub.docker.com/u/irfanuruchi">Docker Hub</a> •
-  <a href="https://irfanuruchi.in">Portfolio</a>
+<p>
+  <a href="https://github.com/IrfanUruchi/ELENXIS">
+    <img src="https://img.shields.io/badge/Repository_%26_Research-161B22?style=flat-square&logo=github&logoColor=white" alt="ELENXIS repository">
+  </a>
 </p>
+
+### BuildEng — Model fine-tuning
+
+Domain-specific language models for civil and structural engineering, HVAC, construction workflows, and field diagnostics. This work includes **dataset preparation and validation, fine-tuning, evaluation, model merging, quantization, and deployment**—not just inference with existing models.
+
+- **BuildEng V8:** Qwen2.5-32B-Instruct fine-tuned using 4-bit QLoRA.
+- **Training data:** 145,117 validated examples; 4,096-token sequences.
+- **Model branches:** 1.5B, 3B, and 32B.
+- **Deployment formats:** merged models, GGUF variants, MLX releases, and OpenVINO exports.
+- **Additional work:** English–Albanian DSP fine-tuning, computer-engineering and networking models, HVAC prechecks, and compact edge models.
+
+Across these projects, I have published **30+ model, adapter, conversion, and quantization releases**.
+
+<p>
+  <a href="https://huggingface.co/Irfanuruchi/buildeng">
+    <img src="https://img.shields.io/badge/Training_Dataset-161B22?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="BuildEng dataset">
+  </a>
+  <a href="https://huggingface.co/Irfanuruchi/qwen2.5-32b-buildeng-GGUF-F16">
+    <img src="https://img.shields.io/badge/BuildEng_32B-161B22?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="BuildEng 32B">
+  </a>
+  <a href="https://huggingface.co/Irfanuruchi/qwen2.5-3b-buildeng">
+    <img src="https://img.shields.io/badge/BuildEng_3B-161B22?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="BuildEng 3B">
+  </a>
+  <a href="https://huggingface.co/Irfanuruchi/qwen2.5-1.5b-buildeng">
+    <img src="https://img.shields.io/badge/BuildEng_1.5B-161B22?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="BuildEng 1.5B">
+  </a>
+</p>
+
+---
+
+## Distributed and edge systems
+
+| Project | Implementation |
+| --- | --- |
+| **Distributed Task Orchestration** | FastAPI coordinator, gRPC/Protobuf workers, SQLite queue, heartbeats, retries, and capability-aware scheduling across Linux and macOS machines. |
+| **Intelligent Fog Orchestration** | MQTT node telemetry, desired-state reconciliation, container monitoring, and automatic workload recovery. |
+| [![PMDrop](https://img.shields.io/badge/PMDrop-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/PMDrop) | Raspberry Pi-based local file transfer; FastAPI, SQLite, device registration, and ARM64/x86_64 Docker deployment. |
+| [![Wireless Monitoring Network](https://img.shields.io/badge/Wireless_Monitoring_Network-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/wmn-system) | RSSI, latency, jitter, and packet-loss monitoring; MQTT, offline telemetry spooling, alerts, and Grafana. |
+| [![Edge Mini Cloud](https://img.shields.io/badge/Edge_Mini_Cloud-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker) | Self-hosted environment with Nextcloud, Prometheus, Grafana, Jupyter, Samba, and local inference. |
+| [![Adaptive IoT Gateway](https://img.shields.io/badge/Adaptive_IoT_Gateway-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/Adaptive-IoT-Gateway) | Raspberry Pi, MQTT, device/network telemetry, and containerized services. |
+
+## iOS applications
+
+| Application | Scope |
+| --- | --- |
+| [![EngToolBox](https://img.shields.io/badge/EngToolBox-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/EngToolBox) | Engineering calculations, numerical and symbolic mathematics. |
+| [![UnitEngConverter](https://img.shields.io/badge/UnitEngConverter-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/UnitEngConverter) | Engineering unit conversions. |
+| [![Smart Study Planner](https://img.shields.io/badge/Smart_Study_Planner-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/Smart-Study-Planner) | Task planning, study scheduling, and timers. |
+| [![PlayAIground](https://img.shields.io/badge/PlayAIground-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/PlayAIground) | On-device language-model experiments on iOS. |
+
+<details>
+<summary><strong>Additional projects — databases, embedded systems, and programming languages</strong></summary>
+
+### Data and backend
+
+- [![Real-Time Price Alert](https://img.shields.io/badge/Real--Time_Price_Alert-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/realtime-price-alert-system) — Event-driven stock-price monitoring, price-drop detection, automated alerts, and containerized services.
+- [![ProMatch](https://img.shields.io/badge/ProMatch-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/promatch-prolog) — SWI-Prolog matchmaking with greedy scheduling and CLP(FD).
+- **Local LLM Service** — Docker-based GGUF inference interface with configurable models and persistent SQLite conversations.
+- **NoSQL Retail Migration** — PostgreSQL 16 to MongoDB 7; validation of 99,441 orders, 32,951 products, and 96,096 customers, with a Streamlit analytics dashboard.
+
+### Embedded systems and architecture
+
+- [![ALPR Gate](https://img.shields.io/badge/ALPR_Gate-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/automated-license-plate-gate-control) — YOLOv8 Nano and EasyOCR on Raspberry Pi with Arduino gate control.
+- **Processor design** — Custom 8-bit and Z80-style CPUs, ALU/datapath/control logic, Logisim, Verilog, and FPGA experiments.
+
+### Language and model tooling
+
+- [![Haskell Calculator](https://img.shields.io/badge/Haskell_Symbolic_Calculator-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/Haskell-Integral-Derivative-Calculator) — Recursive-descent parsing, simplification, symbolic differentiation, and integration.
+- [![Bilingual DSP LLM](https://img.shields.io/badge/Bilingual_DSP_LLM-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/dsp-llm-bilingual-finetuning) — English–Albanian digital signal-processing dataset and fine-tuning pipeline.
+- [![LLM Box](https://img.shields.io/badge/LLM_Box-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/llm-docker-app) — FastAPI/Docker model-serving interface.
+
+</details>
+
+---
+
+## Technical stack
+
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python, C/C++, Swift, Kotlin, Assembly, Verilog, Haskell, Prolog, Fortran, SQL |
+| **ML training and inference** | PyTorch, Transformers, LoRA/QLoRA, Hugging Face, CUDA, MLX, GGUF, llama.cpp, OpenVINO, Core ML |
+| **Operating systems and infrastructure** | Linux, Qt/QML, Debian packaging, Docker, Proxmox, Prometheus, Grafana |
+| **Distributed systems and data** | FastAPI, gRPC, Protobuf, MQTT, WebRTC, SQLite, PostgreSQL, MongoDB |
+| **Embedded and mobile** | Raspberry Pi, Arduino, FPGA, SwiftUI, Jetpack Compose |
+
+---
+
+B.Sc. in Computer Engineering · South East European University · 2026 (240 ECTS)
+
+| Project | Implementation |
+| --- | --- |
+| Distributed Task Orchestration | FastAPI coordinator, gRPC/Protobuf workers, SQLite queue, heartbeats, retries, and capability-aware scheduling across Linux and macOS machines. |
+| Intelligent Fog Orchestration | MQTT node telemetry, desired-state reconciliation, container monitoring, and automatic workload recovery. |
+| [PMDrop](https://github.com/IrfanUruchi/PMDrop) | Raspberry Pi-based local file transfer; FastAPI, SQLite, device registration, and ARM64/x86_64 Docker deployment. |
+| [Wireless Monitoring Network](https://github.com/IrfanUruchi/wmn-system) | RSSI, latency, jitter, and packet-loss monitoring; MQTT, offline telemetry spooling, alerts, and Grafana. |
+| [Edge Mini Cloud](https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker) | Self-hosted environment with Nextcloud, Prometheus, Grafana, Jupyter, Samba, and local inference. |
+| [Adaptive IoT Gateway](https://github.com/IrfanUruchi/Adaptive-IoT-Gateway) | Raspberry Pi, MQTT, device/network telemetry, and containerized services. |
+
+## iOS applications
+
+| Application | Scope |
+| --- | --- |
+| [EngToolBox](https://github.com/IrfanUruchi/EngToolBox) | Engineering calculations, numerical and symbolic mathematics. |
+| [UnitEngConverter](https://github.com/IrfanUruchi/UnitEngConverter) | Engineering unit conversions. |
+| [Smart Study Planner](https://github.com/IrfanUruchi/Smart-Study-Planner) | Task planning, study scheduling, and timers. |
+| [PlayAIground](https://github.com/IrfanUruchi/PlayAIground) | On-device language-model experiments on iOS. |
+
+<details>
+<summary><strong>Additional projects — databases, embedded systems, and programming languages</strong></summary>
+
+### Data and backend
+
+- [Real-Time Price Alert System](https://github.com/IrfanUruchi/realtime-price-alert-system): Event-driven stock-price monitoring, price-drop detection, automated alerts, and containerized services.
+- [ProMatch](https://github.com/IrfanUruchi/promatch-prolog): SWI-Prolog matchmaking with greedy scheduling and CLP(FD).
+- **Local LLM Service:** Docker-based GGUF inference interface with configurable models and persistent SQLite conversations.
+- **NoSQL Retail Migration:** PostgreSQL 16 to MongoDB 7; validation of 99,441 orders, 32,951 products, and 96,096 customers, with a Streamlit analytics dashboard.
+
+### Embedded systems and architecture
+
+- [ALPR Gate](https://github.com/IrfanUruchi/automated-license-plate-gate-control): YOLOv8 Nano and EasyOCR on Raspberry Pi with Arduino gate control.
+- **Processor design:** custom 8-bit and Z80-style CPUs, ALU/datapath/control logic, Logisim, Verilog, and FPGA experiments.
+
+### Language and model tooling
+
+- [Haskell Symbolic Calculator](https://github.com/IrfanUruchi/Haskell-Integral-Derivative-Calculator): recursive-descent parsing, simplification, symbolic differentiation, and integration.
+- [Bilingual DSP LLM](https://github.com/IrfanUruchi/dsp-llm-bilingual-finetuning): English–Albanian digital signal-processing dataset and fine-tuning pipeline.
+- [LLM Box](https://github.com/IrfanUruchi/llm-docker-app): FastAPI/Docker model-serving interface.
+
+</details>
+
+---
+
+## Technical stack
+
+| Area | Technologies |
+| --- | --- |
+| Languages | Python, C/C++, Swift, Kotlin, Assembly, Verilog, Haskell, Prolog, Fortran, SQL |
+| ML training and inference | PyTorch, Transformers, LoRA/QLoRA, Hugging Face, CUDA, MLX, GGUF, llama.cpp, OpenVINO, Core ML |
+| Operating systems and infrastructure | Linux, Qt/QML, Debian packaging, Docker, Proxmox, Prometheus, Grafana |
+| Distributed systems and data | FastAPI, gRPC, Protobuf, MQTT, WebRTC, SQLite, PostgreSQL, MongoDB |
+| Embedded and mobile | Raspberry Pi, Arduino, FPGA, SwiftUI, Jetpack Compose |
+
+B.Sc. in Computer Engineering · South East European University · 2026 (240 ECTS)
