@@ -1,6 +1,6 @@
 # Irfan Uruchi
 
-**Computer Engineer · Researcher**
+**Computer Engineer · Researcher · Author**
 
 Operating Systems · Scientific Computing · Machine Learning · Distributed and Embedded Systems
 
@@ -25,6 +25,18 @@ B.Sc. in Computer Engineering · South East European University · 2026 (240 ECT
     <img src="https://img.shields.io/badge/App%20Store-111111?style=for-the-badge&logo=apple&logoColor=white" alt="App Store">
   </a>
 </p>
+
+---
+
+## Books
+
+### [IULinux: Designing and Building a Linux Distribution](https://doi.org/10.5281/zenodo.24443249)
+
+*Architecture, Implementation, and Testing* — an independently authored engineering book documenting the design, implementation, and testing of IULinux, including Linux boot architecture, ISO construction, Debian packaging, system services, KDE Plasma integration, hardware support, and release validation.
+
+**First public edition:** v0.3.5 · November 22, 2026 · 70 pages · 13 chapters · 32 references.
+
+[Read the book (Zenodo DOI)](https://doi.org/10.5281/zenodo.24443249) · [Book repository](https://github.com/IrfanUruchi/iulinux-architecture-book) · [GitHub release](https://github.com/IrfanUruchi/iulinux-architecture-book/releases/tag/book-v0.3.5)
 
 ---
 
