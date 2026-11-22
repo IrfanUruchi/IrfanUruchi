@@ -1,13 +1,19 @@
-
 # Irfan Uruchi
 
-**Computer Engineer** · Operating Systems · Scientific Computing · Machine Learning · Distributed Systems
+**Computer Engineer · Researcher**
 
-I develop Linux software, scientific research tools, domain-specific language models, and distributed applications. My work covers both the software and the hardware it runs on, from desktop operating systems and GPU inference to Raspberry Pi deployments and custom processor designs.
+Operating Systems · Scientific Computing · Machine Learning · Distributed and Embedded Systems
+
+I develop operating systems, research software, domain-specific language models and distributed computing systems. My research combines implementation, experimental evaluation and technical documentation, with an emphasis on the underlying hardware and software architecture.
+
+B.Sc. in Computer Engineering · South East European University · 2026 (240 ECTS)
 
 <p align="left">
   <a href="https://irfanuruchi.in">
     <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="https://orcid.org/0009-0000-9036-8172">
+    <img src="https://img.shields.io/badge/ORCID-111111?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID">
   </a>
   <a href="https://huggingface.co/Irfanuruchi">
     <img src="https://img.shields.io/badge/Hugging%20Face-111111?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face">
@@ -19,6 +25,22 @@ I develop Linux software, scientific research tools, domain-specific language mo
     <img src="https://img.shields.io/badge/App%20Store-111111?style=for-the-badge&logo=apple&logoColor=white" alt="App Store">
   </a>
 </p>
+
+---
+
+## Research publications
+
+Five DOI-backed works archived on Zenodo: two research preprints and three academic reports. The preprints have not undergone peer review.
+
+| Publication | Type | DOI |
+| --- | --- | --- |
+| Distributed Task Orchestration System: Persistent Queuing and Capability-Aware Scheduling Across Heterogeneous Workers | Preprint · 2026 | [10.5281/zenodo.24435432](https://doi.org/10.5281/zenodo.24435432) |
+| CPU-Based Automatic License Plate Recognition for On-Premises Access Control Using Raspberry Pi and Arduino | Preprint · 2026 | [10.5281/zenodo.24434566](https://doi.org/10.5281/zenodo.24434566) |
+| Real-Time Price-Drop Alert Platform | Report · 2026 | [10.5281/zenodo.24433809](https://doi.org/10.5281/zenodo.24433809) |
+| Intelligent Fog Orchestration System for Distributed IoT Workload Management | Report · 2026 | [10.5281/zenodo.24426543](https://doi.org/10.5281/zenodo.24426543) |
+| Fine-Tuning Lightweight Large Language Models for a Bilingual DSP Teaching Assistant | Report · 2025 | [10.5281/zenodo.24425560](https://doi.org/10.5281/zenodo.24425560) |
+
+[ORCID research record](https://orcid.org/0009-0000-9036-8172)
 
 ---
 
@@ -68,7 +90,7 @@ Domain-specific language models for civil and structural engineering, HVAC, cons
 - **Deployment formats:** merged models, GGUF variants, MLX releases, and OpenVINO exports.
 - **Additional work:** English–Albanian DSP fine-tuning, computer-engineering and networking models, HVAC prechecks, and compact edge models.
 
-Across these projects, I have published **30+ model, adapter, conversion, and quantization releases**.
+As of November 2026, my Hugging Face portfolio has reached **100 model repositories**, including fine-tuned models and their quantized or converted variants.
 
 <p>
   <a href="https://huggingface.co/Irfanuruchi/buildeng">
@@ -91,65 +113,8 @@ Across these projects, I have published **30+ model, adapter, conversion, and qu
 
 | Project | Implementation |
 | --- | --- |
-| **Distributed Task Orchestration** | FastAPI coordinator, gRPC/Protobuf workers, SQLite queue, heartbeats, retries, and capability-aware scheduling across Linux and macOS machines. |
-| **Intelligent Fog Orchestration** | MQTT node telemetry, desired-state reconciliation, container monitoring, and automatic workload recovery. |
-| [![PMDrop](https://img.shields.io/badge/PMDrop-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/PMDrop) | Raspberry Pi-based local file transfer; FastAPI, SQLite, device registration, and ARM64/x86_64 Docker deployment. |
-| [![Wireless Monitoring Network](https://img.shields.io/badge/Wireless_Monitoring_Network-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/wmn-system) | RSSI, latency, jitter, and packet-loss monitoring; MQTT, offline telemetry spooling, alerts, and Grafana. |
-| [![Edge Mini Cloud](https://img.shields.io/badge/Edge_Mini_Cloud-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker) | Self-hosted environment with Nextcloud, Prometheus, Grafana, Jupyter, Samba, and local inference. |
-| [![Adaptive IoT Gateway](https://img.shields.io/badge/Adaptive_IoT_Gateway-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/Adaptive-IoT-Gateway) | Raspberry Pi, MQTT, device/network telemetry, and containerized services. |
-
-## iOS applications
-
-| Application | Scope |
-| --- | --- |
-| [![EngToolBox](https://img.shields.io/badge/EngToolBox-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/EngToolBox) | Engineering calculations, numerical and symbolic mathematics. |
-| [![UnitEngConverter](https://img.shields.io/badge/UnitEngConverter-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/UnitEngConverter) | Engineering unit conversions. |
-| [![Smart Study Planner](https://img.shields.io/badge/Smart_Study_Planner-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/Smart-Study-Planner) | Task planning, study scheduling, and timers. |
-| [![PlayAIground](https://img.shields.io/badge/PlayAIground-161B22?style=flat-square&logo=apple&logoColor=white)](https://github.com/IrfanUruchi/PlayAIground) | On-device language-model experiments on iOS. |
-
-<details>
-<summary><strong>Additional projects — databases, embedded systems, and programming languages</strong></summary>
-
-### Data and backend
-
-- [![Real-Time Price Alert](https://img.shields.io/badge/Real--Time_Price_Alert-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/realtime-price-alert-system) — Event-driven stock-price monitoring, price-drop detection, automated alerts, and containerized services.
-- [![ProMatch](https://img.shields.io/badge/ProMatch-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/promatch-prolog) — SWI-Prolog matchmaking with greedy scheduling and CLP(FD).
-- **Local LLM Service** — Docker-based GGUF inference interface with configurable models and persistent SQLite conversations.
-- **NoSQL Retail Migration** — PostgreSQL 16 to MongoDB 7; validation of 99,441 orders, 32,951 products, and 96,096 customers, with a Streamlit analytics dashboard.
-
-### Embedded systems and architecture
-
-- [![ALPR Gate](https://img.shields.io/badge/ALPR_Gate-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/automated-license-plate-gate-control) — YOLOv8 Nano and EasyOCR on Raspberry Pi with Arduino gate control.
-- **Processor design** — Custom 8-bit and Z80-style CPUs, ALU/datapath/control logic, Logisim, Verilog, and FPGA experiments.
-
-### Language and model tooling
-
-- [![Haskell Calculator](https://img.shields.io/badge/Haskell_Symbolic_Calculator-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/Haskell-Integral-Derivative-Calculator) — Recursive-descent parsing, simplification, symbolic differentiation, and integration.
-- [![Bilingual DSP LLM](https://img.shields.io/badge/Bilingual_DSP_LLM-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/dsp-llm-bilingual-finetuning) — English–Albanian digital signal-processing dataset and fine-tuning pipeline.
-- [![LLM Box](https://img.shields.io/badge/LLM_Box-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/IrfanUruchi/llm-docker-app) — FastAPI/Docker model-serving interface.
-
-</details>
-
----
-
-## Technical stack
-
-| Area | Technologies |
-| --- | --- |
-| **Languages** | Python, C/C++, Swift, Kotlin, Assembly, Verilog, Haskell, Prolog, Fortran, SQL |
-| **ML training and inference** | PyTorch, Transformers, LoRA/QLoRA, Hugging Face, CUDA, MLX, GGUF, llama.cpp, OpenVINO, Core ML |
-| **Operating systems and infrastructure** | Linux, Qt/QML, Debian packaging, Docker, Proxmox, Prometheus, Grafana |
-| **Distributed systems and data** | FastAPI, gRPC, Protobuf, MQTT, WebRTC, SQLite, PostgreSQL, MongoDB |
-| **Embedded and mobile** | Raspberry Pi, Arduino, FPGA, SwiftUI, Jetpack Compose |
-
----
-
-B.Sc. in Computer Engineering · South East European University · 2026 (240 ECTS)
-
-| Project | Implementation |
-| --- | --- |
-| Distributed Task Orchestration | FastAPI coordinator, gRPC/Protobuf workers, SQLite queue, heartbeats, retries, and capability-aware scheduling across Linux and macOS machines. |
-| Intelligent Fog Orchestration | MQTT node telemetry, desired-state reconciliation, container monitoring, and automatic workload recovery. |
+| [Distributed Task Orchestration](https://github.com/IrfanUruchi/distributed-task-orchestration-system) | FastAPI coordinator, gRPC/Protobuf workers, SQLite queue, heartbeats, retries, and capability-aware scheduling across Linux and macOS machines. |
+| [Intelligent Fog Orchestration](https://github.com/IrfanUruchi/intelligent-fog-orchestration-system) | MQTT node telemetry, desired-state reconciliation, container monitoring, and automatic workload recovery. |
 | [PMDrop](https://github.com/IrfanUruchi/PMDrop) | Raspberry Pi-based local file transfer; FastAPI, SQLite, device registration, and ARM64/x86_64 Docker deployment. |
 | [Wireless Monitoring Network](https://github.com/IrfanUruchi/wmn-system) | RSSI, latency, jitter, and packet-loss monitoring; MQTT, offline telemetry spooling, alerts, and Grafana. |
 | [Edge Mini Cloud](https://github.com/IrfanUruchi/Distributed-edge-mini-cloud-Docker) | Self-hosted environment with Nextcloud, Prometheus, Grafana, Jupyter, Samba, and local inference. |
@@ -169,21 +134,21 @@ B.Sc. in Computer Engineering · South East European University · 2026 (240 ECT
 
 ### Data and backend
 
-- [Real-Time Price Alert System](https://github.com/IrfanUruchi/realtime-price-alert-system): Event-driven stock-price monitoring, price-drop detection, automated alerts, and containerized services.
-- [ProMatch](https://github.com/IrfanUruchi/promatch-prolog): SWI-Prolog matchmaking with greedy scheduling and CLP(FD).
-- **Local LLM Service:** Docker-based GGUF inference interface with configurable models and persistent SQLite conversations.
-- **NoSQL Retail Migration:** PostgreSQL 16 to MongoDB 7; validation of 99,441 orders, 32,951 products, and 96,096 customers, with a Streamlit analytics dashboard.
+- [Real-Time Price Alert](https://github.com/IrfanUruchi/realtime-price-alert-system) — Architectural design for event-driven stock-price monitoring, threshold evaluation and notification delivery.
+- [ProMatch](https://github.com/IrfanUruchi/promatch-prolog) — SWI-Prolog matchmaking with greedy scheduling and CLP(FD).
+- **Local LLM Service** — Docker-based GGUF inference interface with configurable models and persistent SQLite conversations.
+- **NoSQL Retail Migration** — PostgreSQL 16 to MongoDB 7; validation of 99,441 orders, 32,951 products, and 96,096 customers, with a Streamlit analytics dashboard.
 
 ### Embedded systems and architecture
 
-- [ALPR Gate](https://github.com/IrfanUruchi/automated-license-plate-gate-control): YOLOv8 Nano and EasyOCR on Raspberry Pi with Arduino gate control.
-- **Processor design:** custom 8-bit and Z80-style CPUs, ALU/datapath/control logic, Logisim, Verilog, and FPGA experiments.
+- [ALPR Gate](https://github.com/IrfanUruchi/automated-license-plate-gate-control) — CPU-based YOLOv8n vehicle detection and EasyOCR on Raspberry Pi, with Arduino access-state indication.
+- **Processor design** — Custom 8-bit and Z80-style CPUs, ALU/datapath/control logic, Logisim, Verilog, and FPGA experiments.
 
 ### Language and model tooling
 
-- [Haskell Symbolic Calculator](https://github.com/IrfanUruchi/Haskell-Integral-Derivative-Calculator): recursive-descent parsing, simplification, symbolic differentiation, and integration.
-- [Bilingual DSP LLM](https://github.com/IrfanUruchi/dsp-llm-bilingual-finetuning): English–Albanian digital signal-processing dataset and fine-tuning pipeline.
-- [LLM Box](https://github.com/IrfanUruchi/llm-docker-app): FastAPI/Docker model-serving interface.
+- [Haskell Calculator](https://github.com/IrfanUruchi/Haskell-Integral-Derivative-Calculator) — Recursive-descent parsing, simplification, symbolic differentiation, and integration.
+- [Bilingual DSP LLM](https://github.com/IrfanUruchi/dsp-llm-bilingual-finetuning) — English–Albanian digital signal-processing dataset and fine-tuning pipeline.
+- [LLM Box](https://github.com/IrfanUruchi/llm-docker-app) — FastAPI/Docker model-serving interface.
 
 </details>
 
@@ -193,10 +158,8 @@ B.Sc. in Computer Engineering · South East European University · 2026 (240 ECT
 
 | Area | Technologies |
 | --- | --- |
-| Languages | Python, C/C++, Swift, Kotlin, Assembly, Verilog, Haskell, Prolog, Fortran, SQL |
-| ML training and inference | PyTorch, Transformers, LoRA/QLoRA, Hugging Face, CUDA, MLX, GGUF, llama.cpp, OpenVINO, Core ML |
-| Operating systems and infrastructure | Linux, Qt/QML, Debian packaging, Docker, Proxmox, Prometheus, Grafana |
-| Distributed systems and data | FastAPI, gRPC, Protobuf, MQTT, WebRTC, SQLite, PostgreSQL, MongoDB |
-| Embedded and mobile | Raspberry Pi, Arduino, FPGA, SwiftUI, Jetpack Compose |
-
-B.Sc. in Computer Engineering · South East European University · 2026 (240 ECTS)
+| **Languages** | Python, C/C++, Swift, Kotlin, Assembly, Verilog, Haskell, Prolog, Fortran, SQL |
+| **ML training and inference** | PyTorch, Transformers, LoRA/QLoRA, Hugging Face, CUDA, MLX, GGUF, llama.cpp, OpenVINO, Core ML |
+| **Operating systems and infrastructure** | Linux, Qt/QML, Debian packaging, Docker, Proxmox, Prometheus, Grafana |
+| **Distributed systems and data** | FastAPI, gRPC, Protobuf, MQTT, WebRTC, SQLite, PostgreSQL, MongoDB |
+| **Embedded and mobile** | Raspberry Pi, Arduino, FPGA, SwiftUI, Jetpack Compose |
